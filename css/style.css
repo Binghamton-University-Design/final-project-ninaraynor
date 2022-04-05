@@ -1,0 +1,18 @@
+/*stylesheet*/
+
+/*vars */
+:root {
+	--background-color: ;
+	--body-color: ;
+}
+
+body {
+	margin: 0;
+	color: var(--body-color);
+	background: var(--background-color);
+}
+
+#wrapper {
+	margin: 0 auto;
+	max-width: 1200px;
+}
