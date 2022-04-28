@@ -2,17 +2,29 @@
 
 /*vars */
 :root {
-	--background-color: ;
+	--background-color: white;
 	--body-color: ;
 }
 
-body {
-	margin: 0;
-	color: var(--body-color);
-	background: var(--background-color);
+.project {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+.project-inner {
+  position: relative;
 }
 
-#wrapper {
-	margin: 0 auto;
-	max-width: 1200px;
+/*button*/
+.yes {
+  background: green;
+  position: absolute;
+  width:  47%;
+  height: 11%;
+  bottom: 7.8%;
+  left:  26.5%;
+}
+
+#fishscene1 {
+	position: relative;
 }
