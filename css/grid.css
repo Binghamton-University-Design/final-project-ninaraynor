@@ -3,11 +3,11 @@
 .grid {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-gap: 1rem;
+  grid-gap: 0rem;
 }
 
 .grid div {
-  background-color:white;
+  /*background-color:white;*/
 }
 
 /* H E I G H T */
@@ -75,7 +75,7 @@
 @media (min-width: 700px) {
 
   .grid {
-    grid-gap: 2rem;
+    grid-gap: 0rem;
   }
 
   .width-1-12 {

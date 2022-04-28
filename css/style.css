@@ -3,21 +3,28 @@
 /*vars */
 :root {
 	--background-color: white;
-	--body-color: ;
+}
+
+#wrapper {
+  margin: 0 auto;
+  max-width: 960px;
 }
 
 .project {
-  display: flex;
-  align-items: center;
-  height: 100vh;
+
 }
 .project-inner {
   position: relative;
 }
 
+.masthead img {
+  width: 25%;
+}
+
 /*button*/
 .yes {
-  background: green;
+  z-index: 3;
+  background: transparent;
   position: absolute;
   width:  47%;
   height: 11%;
