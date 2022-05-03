@@ -21,17 +21,80 @@
   width: 25%;
 }
 
-/*button*/
-.yes {
+#fishscene1 {
+  position: relative;
+  width: 600px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*button 1*/
+.yes1 {
   z-index: 3;
   background: transparent;
   position: absolute;
-  width:  47%;
-  height: 11%;
-  bottom: 7.8%;
-  left:  26.5%;
+  width:  20%;
+  height: 50%;
+  bottom: 30%;
+  left:  50%;
 }
 
-#fishscene1 {
-	position: relative;
+#fishscene2 {
+  position: relative;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+/*button 2*/
+.yes2 {
+  z-index: 3;
+  background: transparent;
+  position: absolute;
+  width:  30%;
+  height: 80%;
+  bottom: 22%;
+  left:  47%;
+}
+
+#fishscene3 {
+  position: relative;
+  width: 800px;
+  height: auto;
+  display: block;
+  margin-right: 45%;
+}
+
+/*button 3*/
+.yes3 {
+  z-index: 3;
+  background: transparent;
+  position: absolute;
+  width:  12%;
+  height: 22%;
+  bottom: 40%;
+  left:  37%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
