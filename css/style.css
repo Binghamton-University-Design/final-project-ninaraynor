@@ -21,6 +21,7 @@
   width: 25%;
 }
 
+
 #fishscene1 {
   position: relative;
   width: 600px;
@@ -79,6 +80,69 @@
   left:  37%;
 }
 
+#fishscene4 {
+  position: relative;
+  width: 600px;
+  height: auto;
+  display: block;
+}
+
+/*button 4 naming fish*/
+.yes4 {
+  z-index: 3;
+  background: green;
+  position: absolute;
+  width:  12%;
+  height: 22%;
+  bottom: 40%;
+  left:  37%;
+}
+
+/*button 5 feeding fish*/
+.yes5 {
+  z-index: 3;
+  background: transparent;
+  position: absolute;
+  width:  10%;
+  height: 10%;
+  bottom: 60%;
+  left:  34%;
+}
+
+#fishscene6 {
+  position: relative;
+  display: block;
+  bottom: 10%;
+}
+ /*button 6 fish GIF*/
+.yes6 {
+  z-index: 3;
+  background: transparent;
+  position: absolute;
+  width:  10%;
+  height: 25%;
+  bottom: 10%;
+  left:  40%;
+}
+
+#fishscene7 {
+  position: relative;
+  width: 550px;
+  height: auto;
+  display: block;
+  left: 20%;
+}
+
+/*button 7 feed fish2*/
+.yes7 {
+  z-index: 3;
+  background: transparent;
+  position: absolute;
+  width:  9%;
+  height: 19%;
+  bottom: 42%;
+  left:  25%;
+}
 
 
 
