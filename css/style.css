@@ -24,7 +24,7 @@
 
 #fishscene1 {
   position: relative;
-  width: 600px;
+  width: 55%;
   height: auto;
   display: block;
   margin-left: auto;
@@ -144,15 +144,24 @@
   left:  25%;
 }
 
+.menu ul {
+  background-image: url(../images/timeline.png);
+  background-repeat: no-repeat;
+}
 
+.menu ul li {
+  list-style: none;
+  background-image: url("../images/dot.png");
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 16px;
+  margin-bottom: 1em;
+  padding-left: 2em;
+}
 
-
-
-
-
-
-
-
+.menu ul li.active {
+  font-weight: 800;
+}
 
 
 
