@@ -98,6 +98,12 @@
   left:  37%;
 }
 
+#fishscene5 {
+  position: relative;
+  width: 1000px;
+  height: auto;
+  display: block;
+}
 /*button 5 feeding fish*/
 .yes5 {
   z-index: 3;
