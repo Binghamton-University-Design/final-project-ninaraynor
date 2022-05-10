@@ -52,6 +52,7 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  width: 790px;
 }
 
 /*button 2*/
@@ -67,7 +68,7 @@ body {
 
 #fishscene3 {
   position: relative;
-  width: 800px;
+  width: 700px;
   height: auto;
   display: block;
   margin-right: 45%;
@@ -161,10 +162,10 @@ body {
 
 .menu ul li {
   list-style: none;
-  background-image: url("../images/dot.png");
+  background-image: url();
   background-repeat: no-repeat;
   background-position: left center;
-  background-size: 16px;
+  background-size: 14px;
   margin-bottom: 1em;
   padding-left: 2em;
 }
