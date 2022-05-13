@@ -14,15 +14,12 @@ body {
   max-width: 960px;
 }
 
-.project {
-
-}
 .project-inner {
   position: relative;
 }
 
 .masthead img {
-  width: 25%;
+  width: 20%;
 }
 
 
@@ -52,7 +49,7 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 790px;
+  width: 770px;
 }
 
 /*button 2*/
@@ -71,7 +68,7 @@ body {
   width: 700px;
   height: auto;
   display: block;
-  margin-right: 45%;
+  left: 8%;
 }
 
 /*button 3*/
@@ -79,10 +76,10 @@ body {
   z-index: 3;
   background: transparent;
   position: absolute;
-  width:  12%;
-  height: 22%;
-  bottom: 40%;
-  left:  37%;
+  width:  10%;
+  height: 14%;
+  bottom: 50%;
+  left:  44%;
 }
 
 #fishscene4 {
@@ -105,10 +102,12 @@ body {
 
 #fishscene5 {
   position: relative;
-  width: 1000px;
+  width: 860px;
   height: auto;
   display: block;
+  top: -30px;
 }
+
 /*button 5 feeding fish*/
 .yes5 {
   z-index: 3;
@@ -120,11 +119,14 @@ body {
   left:  34%;
 }
 
-#fishscene6 {
+#feedinggif {
   position: relative;
+  width: 470px;
+  height: auto;
   display: block;
-  bottom: 10%;
+  left: 24%;
 }
+
  /*button 6 fish GIF*/
 .yes6 {
   z-index: 3;
@@ -138,10 +140,10 @@ body {
 
 #fishscene7 {
   position: relative;
-  width: 550px;
+  width: 470px;
   height: auto;
   display: block;
-  left: 20%;
+  left: 24%;
 }
 
 /*button 7 feed fish2*/
@@ -150,10 +152,56 @@ body {
   background: transparent;
   position: absolute;
   width:  9%;
-  height: 19%;
+  height: 16%;
   bottom: 42%;
-  left:  25%;
+  left:  30%;
 }
+
+#nomorefish {
+  position: relative;
+  width: 470px;
+  height: auto;
+  display: block;
+  left: 20%;
+  top: -4px;
+}
+
+#buttons {
+  width: 400px;
+  position: relative;
+  left: 22%;
+  bottom: +5px;
+}
+
+.setfree {
+  z-index: 3;
+  background: transparent;
+  position: absolute;
+  width:  14.5%;
+  height: 14%;
+  bottom: 3%;
+  left:  23%;
+}
+
+.keepfeeding {
+  z-index: 3;
+  background: transparent;
+  position: absolute;
+   width:  14.5%;
+  height: 14%;
+  bottom: 3%;
+  left:  51.5%;
+}
+
+#fishgif {
+  position: relative;
+  width: 590px;
+  height: auto;
+  display: block;
+  left: 18%;
+  bottom: +32px;
+}
+
 
 .menu ul {
   background-image: url(../images/timeline.png);
@@ -163,17 +211,19 @@ body {
 
 .menu ul li {
   list-style: none;
-  background-image: url();
   background-repeat: no-repeat;
   background-position: left center;
   background-size: 14px;
   margin-bottom: 1em;
-  padding-left: 2em;
+  padding-left: 1.6em;
 }
 
 .menu ul li.active {
   font-weight: 800;
+  font-size: 130%;
 }
+
+
 
 
 
