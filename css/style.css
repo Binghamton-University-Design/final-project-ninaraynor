@@ -68,7 +68,7 @@ body {
   width: 700px;
   height: auto;
   display: block;
-  left: 8%;
+  left: 4%;
 }
 
 /*button 3*/
@@ -84,9 +84,10 @@ body {
 
 #fishscene4 {
   position: relative;
-  width: 600px;
+  width:450px;
   height: auto;
   display: block;
+  left:  22% ;
 }
 
 /*button 4 naming fish*/
@@ -133,9 +134,9 @@ body {
   background: transparent;
   position: absolute;
   width:  10%;
-  height: 25%;
-  bottom: 10%;
-  left:  40%;
+  height: 22%;
+  bottom: 18%;
+  left:  44%;
 }
 
 #fishscene7 {
@@ -151,19 +152,30 @@ body {
   z-index: 3;
   background: transparent;
   position: absolute;
-  width:  9%;
-  height: 16%;
+  width:  8%;
+  height: 18%;
   bottom: 42%;
   left:  30%;
 }
 
+/*button 6 fish GIF*/
+.yes8 {
+  z-index: 3;
+  background: transparent;
+  position: absolute;
+  width:  10%;
+  height: 22%;
+  bottom: 18%;
+  left:  44%;
+}
+
 #nomorefish {
   position: relative;
-  width: 470px;
+  width: 500px;
   height: auto;
   display: block;
   left: 20%;
-  top: -4px;
+  top: -20px;
 }
 
 #buttons {
@@ -183,6 +195,7 @@ body {
   left:  23%;
 }
 
+
 .keepfeeding {
   z-index: 3;
   background: transparent;
@@ -193,15 +206,143 @@ body {
   left:  51.5%;
 }
 
+/*Flushing Fish*/
+
 #fishgif {
   position: relative;
   width: 590px;
   height: auto;
   display: block;
-  left: 18%;
-  bottom: +32px;
+  left: 15%;
+  bottom: +90px;
 }
 
+#nextbutton {
+  width: 60px;
+  left:  80%;
+  position: relative;
+  top: +20px;
+}
+
+/*Page 10 Button*/
+.nextbutton {
+  z-index: 3;
+  background: transparent;
+  position: absolute;
+  width:  7%;
+  height: 8.5%;
+  bottom: 88.5%;
+  left: 80%;
+}
+
+/*Fish in Pipe*/
+
+#pipegif {
+  position: relative;
+  width: 700px;
+  height: auto;
+  display: block;
+  left: 15%;
+  bottom: +9px;
+}
+
+#nextbutton2 {
+  width: 60px;
+  left:  85%;
+  position: relative;
+  bottom: 124px;
+}
+
+.nextbutton2 {
+  z-index: 3;
+  background: transparent;
+  position: absolute;
+   width:  7%;
+  height: 9.5%;
+  bottom: 23.5%;
+  left:  85%;
+}
+
+#fishscene12 {
+  position: relative;
+  width: 570px;
+  height: auto;
+  display: block;
+  left: 19%;
+  top: -1;
+}
+
+.yes12 {
+  z-index: 3;
+  background: transparent;
+  position: absolute;
+  width:  14%;
+  height: 20%;
+  bottom: 35%;
+  left:  40%;
+}
+
+#fishscene13 {
+  position: relative;
+  width: 660px;
+  height: auto;
+  display: block;
+  left: 14%;
+  top: +18;
+}
+
+.yes13 {
+  z-index: 3;
+  background: transparent;
+  position: absolute;
+  width:  10%;
+  height: 17%;
+  bottom: 28%;
+  left:  42%;
+}
+
+
+#toobig {
+  position: relative;
+  width: 750px;
+  height: auto;
+  display: block;
+  left: 10%;
+  top: +6;
+}
+
+#text14 {
+  position: relative;
+  width: 550px;
+  left:  15%;
+  bottom: +100px;
+}
+
+#nextbutton3 {
+  width: 60px;
+  left:  88%;
+  position: relative;
+  bottom: 100px;
+}
+
+.nextbutton3 {
+  z-index: 3;
+  background: transparent;
+  position: absolute;
+  width:  7%;
+  height: 8.5%;
+  bottom: 17%;
+  left: 88%;
+}
+
+#resources {
+  position: relative;
+  width: 620px;
+  height: auto;
+  display: block;
+  left: 17%;
+  top: -70px;
+}
 
 .menu ul {
   background-image: url(../images/timeline.png);
@@ -232,11 +373,12 @@ body {
   background-repeat: no-repeat;
 }
 
+
 input {
   width: 400px;
   border: 1px solid black;
   background: #f6f6f6;
-  text-align: left;
+  text-align: center;
 }
 
 
