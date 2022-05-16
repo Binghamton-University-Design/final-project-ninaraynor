@@ -96,14 +96,14 @@ body {
 }
 
 /*button 4 naming fish*/
-.yes4 {
+.namenext {
   z-index: 3;
-  background: green;
+  background: transparent;
   position: absolute;
-  width:  12%;
-  height: 22%;
-  bottom: 40%;
-  left:  37%;
+  width:  50%;
+  height: 62%;
+  bottom: 30%;
+  left:  22%;
 }
 
 #fishscene5 {
@@ -374,7 +374,8 @@ body {
   width: 600px;
   padding: 1.5em;
   text-align: center;
-  background-image: url(../images/textbox.png);
+  padding-left: 15em;
+  padding-right: 0em;
   background-repeat: no-repeat;
 }
 
